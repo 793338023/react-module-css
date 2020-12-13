@@ -6,7 +6,7 @@
 
 使用`typescript-plugin-css-modules`配合vscode，不要新增`.d.ts`文件就可以达到css模块智能提示
 
-当然也可以使用`typed-css-modules`，那样最好的方式不要集成到webpack里,减少webpack的压力，直接启动监听即可，只是有个缺点就是无法即使或`.d.ts` 不能没有都很少的生成所有定义
+当然也可以使用`typed-css-modules`，那样最好的方式不要集成到webpack里,减少webpack的压力，直接启动监听即可，只是有个缺点就是无法及时生成`.d.ts`或生成不全，无法正常使用，需要第多次触发生成才能正确，当然这些是可以优化的
 
 ## 资料
 https://juejin.cn/post/6878519063270817805
